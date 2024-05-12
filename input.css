@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-svg {
+  background-image: url('/images/pattern-background-desktop.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-svg {
+    background-image: url('/images/illustration-hero.svg');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+
+  <body
+    class="background-svg flex h-screen flex-col items-center justify-center p-6"
+  >
+    <main class="max-w-md rounded-lg bg-white p-0 shadow-lg">
+      <header class="hero-svg rounded-t-lg p-28"></header>
+
+      <section class="p-6 sm:p-12">
+        <h1 class="text-center text-2xl font-black">Order Summary</h1>
+        <p class="pt-4 text-center text-gray-400">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div
+          class="mt-4 flex items-center justify-center rounded-lg bg-slate-100 p-4"
+        >
+          <img
+            src="./images/icon-music.svg"
+            alt="music icon"
+            class="h-6 w-6 sm:h-12 sm:w-12"
+          />
+          <div class="ml-4 flex flex-col">
+            <h2 class="font-bold sm:text-lg">Annual Plan</h2>
+            <p class="text-gray-400 sm:text-lg">$59.99/year</p>
+          </div>
+          <a
+            href="#"
+            class="mx-auto text-sm text-custom-purple hover:text-custom-purple-light"
+            >Change</a
+          >
+        </div>
+      </section>
+
+      <footer class="pl-6 pr-6 sm:pl-12 sm:pr-12">
+        <button
+          class="mx-auto flex w-full justify-center rounded-xl bg-custom-purple p-4 text-sm font-bold text-white shadow-xl hover:bg-custom-purple-light"
+        >
+          Proceed to Payment
+        </button>
+        <a
+          href="#"
+          class="block justify-center p-4 text-center text-sm font-bold text-gray-400 hover:text-black"
+          >Cancel Order</a
+        >
+      </footer>
+    </main>
+
+    <div class="attribution p-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ernie Hsiung</a>.
+    </div>
+  </body>
+</html>
