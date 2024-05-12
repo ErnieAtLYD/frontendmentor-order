@@ -64,20 +64,6 @@ That is kinda cool. I had a <diag> HTML tag and said I should replace with a sta
 
 - I got these comps from FrontendMentor. They're design pattern libraries - their grids, their color patterns, etc.  aren't going to be aligned to Tailwinds, which is to be expected I guess. Tailwind is probably a lot better for the developer who has to be his own designer and has the ability to have a UI to work from such as shadcn
 
-- responsive and hover beahviors: add 
-
-- prettier and tailwind. 
-
-- code reviewing and tailwind
-> for flexbox, what do i need to change if i need elements going top to bottom instead of going left to right? i'm using tailwind.
-
-GitHub Copilot
-In Tailwind CSS, you can use the flex-col class to make the flex container's items flow from top to bottom.
-
-Here's how you can apply it to your code:
-
-
-In this code, flex makes the div a flex container, flex-col makes the items flow from top to bottom, items-center aligns the items along the cross axis (which is now horizontal due to flex-col), and justify-center aligns the items along the main axis (which is now vertical due to flex-col).
 
 ### Continued development
 
@@ -91,8 +77,7 @@ I'd probably focus on making sure this was more pixel perfect. But honestly, I g
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ErnieAtLYD](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@ErnieAtLYD](https://www.twitter.com/ErnieAtLYD)
 
 
