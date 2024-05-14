@@ -23,12 +23,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/ErnieAtLYD/frontendmentor-order/assets/33945/737e2e06-2145-415c-a310-2bbb0ef84ef5)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ErnieAtLYD/frontendmentor-order](https://github.com/ErnieAtLYD/frontendmentor-order)
+- Live Site URL: [https://github.com/ErnieAtLYD/frontendmentor-order](https://your-live-site-url.com)
 
 ### Built with
 
@@ -40,7 +41,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 2. Choose Tailwind as I haven't done that before and was a little sus about it
 3. Do the following:
 
-```
+```bash
 npm install -D tailwindcss
 npx tailwindcss init
 npx tailwindcss -i ./input.css -o ./output.css --watch
@@ -54,7 +55,7 @@ npx tailwindcss -i ./input.css -o ./output.css --watch
 
 > @workspace how would you refactor index.html?
 
-That is kinda cool. I had a <diag> HTML tag and said I should replace with a standard one. It was nice cuz my ADHD brain wants this to get over with and it's another point of contact keeping me honest
+That is kinda cool. I had a `<diag>` HTML tag and said I should replace with a standard one. It was nice cuz my ADHD brain wants this to get over with and it's another point of contact keeping me honest
 
 - IF YOU ARE LEARNING TAILWIND ON A STATIC SITE, DON'T FORGET THAT TAILWIND STILL HAS TO BE COMPILED. They tell you how to do this in the docs: `npx tailwindcss -i ./input.css -o ./output.css --watch`.  if you don't do this you'll get intermittant errors as some things will work perfeclt fine but other things won't render w/o explnaation.
 
