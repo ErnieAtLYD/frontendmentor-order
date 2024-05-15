@@ -29,7 +29,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [https://github.com/ErnieAtLYD/frontendmentor-order](https://github.com/ErnieAtLYD/frontendmentor-order)
-- Live Site URL: [https://github.com/ErnieAtLYD/frontendmentor-order](https://your-live-site-url.com)
+- Live Site URL: [https://frontendmentor-order.vercel.app/](https://frontendmentor-order.vercel.app/)
 
 ### Built with
 
